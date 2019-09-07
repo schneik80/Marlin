@@ -620,7 +620,7 @@
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 450, 450, 250, 50 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 300, 250, 50 }
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
@@ -855,7 +855,7 @@
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR true
 #define INVERT_Y_DIR false
-#define INVERT_Z_DIR false
+#define INVERT_Z_DIR true
 
 // @section extruder
 
